@@ -1,3 +1,11 @@
+<html>
+
+<!--
+* Include the jquery file for authentication
+* and also the script for handling the
+* creation of the custom fields.
+ -->
+
 <div class="form-container">
     <form name="frmContact" id="" frmContact"" method="post" action=""
         enctype="multipart/form-data"
@@ -55,3 +63,6 @@
         </div>
     </form>
 </div>
+    <!-- include the javasscript for auth -->
+    <script src = "jquery_metro.js"/>
+</html>
