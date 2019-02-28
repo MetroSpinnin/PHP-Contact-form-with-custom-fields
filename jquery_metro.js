@@ -7,14 +7,14 @@
     	   });	
     	}
     function validateContactForm() {
-        var valid = true;
+        const valid = true;
 
         $(".info").html("");
         $(".input-field").css('border', '#e0dfdf 1px solid');
-        var userName = $("#userName").val();
-        var userEmail = $("#userEmail").val();
-        var subject = $("#subject").val();
-        var content = $("#content").val();
+        const userName = $("#userName").val();
+        const userEmail = $("#userEmail").val();
+        const subject = $("#subject").val();
+        const content = $("#content").val();
         
         if (userName == "") {
             $("#userName-info").html("Required.");
